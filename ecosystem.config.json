@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "nodejs-express-boilerplate",
+      "script": "src/index.js",
+      "instances": 1,
+      "autorestart": true,
+      "watch": true,
+      "time": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
